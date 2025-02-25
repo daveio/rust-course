@@ -15,7 +15,6 @@ version = "2.3.4"
 # ...
 ```
 
-
 ```rust
 // src/main.rs
 
@@ -44,7 +43,6 @@ fn main() {
     println!("{} missiles left", missiles);
 }
 ```
-
 
 ```rust
 const STARTING_MISSILES: i32 = 8;
@@ -106,7 +104,7 @@ fn main() {
 ```
 
 - Instead of changing missiles, use the value `missiles - ready` directly in the second `println!(...)`
-  - What does cargo say when you run your program?  
+  - What does cargo say when you run your program?
 
 It gives this warning:
 
@@ -114,8 +112,8 @@ It gives this warning:
 warning: variable does not need to be mutable
 ```
 
-- Add another variable to your program *but don't use it*.
-  - What does cargo say when you run your program?  
+- Add another variable to your program _but don't use it_.
+  - What does cargo say when you run your program?
 
 It gives this warning if my unused variable is named `jet`:
 

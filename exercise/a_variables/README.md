@@ -1,6 +1,6 @@
 # Exercise A: Variables
 
-### Part 1
+## Part 1
 
 - [ ] Make a new project named `variables` using cargo
   - See "cargo help" if you forgot the command.
@@ -16,7 +16,7 @@
   - Forgot to use `let` to bind a variable
   - Forgot a semicolon `;` at the end of a line
 
-### Part 2
+## Part 2
 
 - [ ] After the `println!(...)`, subtract `ready` from `missiles` like this:
   - `missiles = missiles - ready;`
@@ -30,7 +30,7 @@
   - Where did you put the constants? If you put them inside the `main()` function, try moving them up above `main()` to module scope!
 - [ ] Nice. Congratulate yourself on a job well done! You are a Rust programmer now!
 
-### Extra challenges:
+## Extra challenges
 
 - [ ] Explicitly annotate the variables with the type `i32`
 - [ ] Try binding the variables all at once on one line using a pattern (parentheses and commas) -- can you figure out where `mut` goes?

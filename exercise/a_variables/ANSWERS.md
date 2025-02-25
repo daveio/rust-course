@@ -1,9 +1,9 @@
 # Answers to Exercise A
 
-### Part 1
+## Part 1
 
 ```shell
-$ cargo new variables
+cargo new variables
 ```
 
 ```toml
@@ -27,10 +27,10 @@ fn main() {
 ```
 
 ```shell
-$ cargo run
+cargo run
 ```
 
-### Part 2
+## Part 2
 
 ```rust
 // src/main.rs
@@ -108,7 +108,7 @@ fn main() {
 
 It gives this warning:
 
-```
+```text
 warning: variable does not need to be mutable
 ```
 
@@ -117,13 +117,13 @@ warning: variable does not need to be mutable
 
 It gives this warning if my unused variable is named `jet`:
 
-```
+```text
 warning: unused variable: `jet`
 ```
 
 - Try modifying a constant in main() (for example, `READY_AMOUNT = 1`). What does the error look like?
 
-```
+```text
 error[E0070]: invalid left-hand side of assignment
  --> src/main.rs:5:18
   |

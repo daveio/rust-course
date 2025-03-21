@@ -1,7 +1,6 @@
 # How To Learn Rust
 
-Perhaps more important than a crash course tutorial in Rust is **learning how to learn Rust**. Learning how to learn
-Rust will put you on a path that will lead to mastering the subject.
+Perhaps more important than a crash course tutorial in Rust is **learning how to learn Rust**. Learning how to learn Rust will put you on a path that will lead to mastering the subject.
 
 ### IDE / Editor
 

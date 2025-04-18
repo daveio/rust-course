@@ -1,8 +1,8 @@
 [env]
-RUST_COURSE_MISE_ACTIVE = "true"
+RUST_COURSE_MISE_ACTIVE = 'true'
 
 [settings]
 env_file = '.env'
 
 [tools]
-rust = '1.85.1'
+rust = '1.86.0'
